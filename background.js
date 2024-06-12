@@ -1,5 +1,5 @@
 const send = async (selectedText) => {
-  const K = "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";
+  const K = "sk-proj-TC37CuFErf5b1kD5iJMET3BlbkFJA0hoWc2iTzgDxKBzmj0d";
 
   const existingResultDiv = document.getElementById("_resultDiv_");
   if (existingResultDiv) document.body.removeChild(existingResultDiv);
