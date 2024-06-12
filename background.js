@@ -1,5 +1,4 @@
 const send = async (selectedText) => {
-  const K = "sk-proj-TC37CuFErf5b1kD5iJMET3BlbkFJA0hoWc2iTzgDxKBzmj0d";
 
   const existingResultDiv = document.getElementById("_resultDiv_");
   if (existingResultDiv) document.body.removeChild(existingResultDiv);
@@ -8,7 +7,7 @@ const send = async (selectedText) => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${K}`,
+      Authorization: "Bearer sk-proj-yF9XwFedS0eboKNJ0vtLT3BlbkFJMGgebv7Sb448auLHQi57",
     },
     body: JSON.stringify({
       model: "gpt-4o",
