@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "‎",
+  "version": "1",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "background": { "service_worker": "background.js" },
+  "icons": { "16": "icon.png" },
+  "content_scripts": [{ "matches": ["<all_urls>"], "css": ["styles.css"] }],
+  "action": {}
+}
